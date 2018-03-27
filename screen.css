@@ -1,0 +1,95 @@
+/*
+
+"Ti nunca lleva tilde" stylesheet
+
+Copyright (c) 2009, Mark Pilgrim, All rights reserved.
+
+*/
+
+/* typography */
+
+@font-face {
+  font-family: "Ibarra";
+  src: url("f/ibarra.eot");
+  src: local("Ibarra"), url("f/ibarra.ttf");
+}
+
+html, body {
+  background: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: large/1.556 "Ibarra", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  word-spacing: 0.1em;
+}
+#zz {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+p, ul, ol {
+  font-size: large;
+  margin: 1.556em 0;
+}
+
+/* basics */
+
+.clear {
+  clear: both;
+}
+strong, b, em, i {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+a:link, .w a {
+  color: FireBrick;
+}
+a:visited {
+  color: RosyBrown;
+}
+
+/* headers */
+
+h1, h2, h3, h4, caption, thead th {
+  font-family: "Ibarra", "Linux Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+  padding: 0;
+  margin: 0;
+  border:0;
+  text-align: center;
+  clear:both;
+}
+h1 {
+  font-size: 72px;
+  font-size: 266.7%;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  margin: 1.49em 0;
+}
+h2 {
+  font-size: 210%;
+  line-height: 1.5;
+  margin: 1.167em 0;
+  text-align: center;
+  clear: both;
+}
+h3 {
+  font-size: x-large;
+  line-height: 1.167;
+  margin: 1.556em 0;
+  text-align: center;
+}
+
+
